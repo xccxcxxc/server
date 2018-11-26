@@ -9,4 +9,14 @@ set showtabline=2 "总是显示 标签页
 
 inoremap jk <ESC>  "修改esc键映射
 
+"如果之前没有字符，tab 键保持不变，否则映射为补全
+function! CleverTab()
+   if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+      return "\<Tab>"
+   else
+      return "\<C-N>"
+   endif
+endfunction
+inoremap <Tab> <C-R>=CleverTab()<CR>
+
 syntax on    "语法高亮
