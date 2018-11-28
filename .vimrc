@@ -20,3 +20,5 @@ endfunction
 inoremap <Tab> <C-R>=CleverTab()<CR>
 
 syntax on    "语法高亮
+
+colorscheme industry  "配色
