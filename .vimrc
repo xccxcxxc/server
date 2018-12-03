@@ -4,6 +4,7 @@ set fileencodings=utf-8,gbk   "设置文件编码方式
 set incsearch    "搜索时预览第一项
 set tabstop=4    "扩展 tab 键为4个空格
 set shiftwidth=4 "表示每一级缩进均为4个空格
+set expandtab   "用 space 代替 tab 
 "set autoindent   "设置自动缩进
 set showtabline=2 "总是显示 标签页
 
