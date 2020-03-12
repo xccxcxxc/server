@@ -7,6 +7,8 @@ set shiftwidth=4 "表示每一级缩进均为4个空格
 set expandtab   "用 space 代替 tab 
 set autoindent   "设置自动缩进
 set showtabline=2 "总是显示 标签页
+colorscheme desert
+
 
 inoremap jk <ESC>  "修改esc键映射
 
